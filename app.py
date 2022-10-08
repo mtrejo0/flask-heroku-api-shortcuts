@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
+from api import get_google
 app = Flask(__name__)
 CORS(app)
 
@@ -15,7 +16,7 @@ def test():
 @app.route('/google')
 def google():
     try:
-        response =  f'The google stock price is 123'
+        response =  f'The google stock price is ${get_google()}'
         return jsonify(response)
         
     except Exception as e:
