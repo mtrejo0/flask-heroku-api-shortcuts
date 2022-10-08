@@ -18,3 +18,8 @@ Deploy it!
 `heroku create APP_NAME`
 
 `git push heroku main`
+
+
+See your deployment!
+
+https://APP_NAME.herokuapp.com/
