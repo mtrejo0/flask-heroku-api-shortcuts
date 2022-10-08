@@ -1,10 +1,5 @@
 # flask-heroku-api
 
-
-Clone it!
-
-`git clone git@github.com:mtrejo0/flask-heroku-api.git`
-
 Set it up!
  
 `virtualenv venv && . venv/bin/activate`
