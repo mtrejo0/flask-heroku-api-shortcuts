@@ -7,6 +7,8 @@ Set it up!
  
 `virtualenv venv && . venv/bin/activate`
 
+`pip3 install -r requirements.txt`
+
 
 Run it!
 
