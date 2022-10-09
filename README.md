@@ -1,4 +1,4 @@
-# flask-heroku-api
+# flask-heroku-api-shortcuts
 
 Set it up!
  
